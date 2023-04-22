@@ -17,4 +17,4 @@ Tools used: JIRA, Zephyr Squad, Postman, MySQL Workbench.
 # Functional Specifications
 
 The below Epic was created in JIRA and describes the functional specifications of the Hotels module, for which the final project is performed upon.
-!![image](https://user-images.githubusercontent.com/129737373/233799221-d3bd3f27-27b8-422e-a650-cf9c896d201a.png)
+![image](https://user-images.githubusercontent.com/129737373/233799320-5d038303-079d-4de6-aede-be290e246b14.png)
