@@ -5,8 +5,9 @@ The scope of the final project for ITF Manual Testing Course is to use all gaine
 Applications under test: PHPTRAVELS - Travel Portal Application for UI testing and Airport Gap for API testing.
 
 Due to the fact that I did not have access to the original documentation, I created my own UI documentation.
+
 Created UI documentation: [PHPTRAVELS UI Documentation](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/PHPTRAVELS%20UI%20Documentation.pdf) 
 
-API Documentation:
+API Documentation: https://airportgap.dev-tester.com/docs
 
 The final project will be split into 2 sections:
