@@ -30,26 +30,28 @@ The plan identifies the items to be tested, the features to be tested, the types
 ### 1.1.1 Entry criteria defined
 
 * The test environment is ready
-    * Roles and permissions are alocated
-    * User created
-    * Initial project risks were detected
+* Roles and permissions are alocated
+* User created
+* Initial project risks were detected
 
 ### 1.1.2 Exit criteria defined
 
-    * All test cases set in scope have been executed
-    * At least 85% of test cases have passed status
-    * Maximum 3 low priority defects opened
-    * Testing deadline 30.04.2023
+* All test cases set in scope have been executed
+* At least 85% of test cases have passed status
+* Maximum 3 low priority defects opened
+* Testing deadline 30.04.2023
 
 ### 1.1.3 Test scope
 
-    
-
-   
+* __Test in scope:__ Review and Functional Testing using Black-box testing and Experience-based testing as Test Design Tehniques, GUI testing 
+and API testing.
+* __Tests not in scope:__ Performance testing, Stress testing, Volume testing, Compatibility testing with multiple browsers.
+ 
 ### 1.1.4 Risks detected
 
-    Project risks: lack of experience of the QA team, short deadline of Zephyr Squad trial, unavailability of test environment
-    Product risks: validation constraints on the fields might be too restrictive to the end-user
+* Project risks: insufficint testers, lack of experience of the QA team, short deadline of Zephyr Squad trial, no developers availible to fix 
+the opened bugs, unavailability of test environment.
+* Product risks: validation constraints on the fields might be too restrictive to the end-user.
 
 ### 1.1.5 Evaluating entry criteria
 
