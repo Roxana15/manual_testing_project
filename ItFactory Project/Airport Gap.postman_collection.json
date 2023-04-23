@@ -1,0 +1,550 @@
+{
+	"info": {
+		"_postman_id": "166bc275-6845-400f-ba19-76c5c3331ae3",
+		"name": "Airport Gap",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25295806"
+	},
+	"item": [
+		{
+			"name": "List of all airports",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 400ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(400);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/airports",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"airports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List of airports from page three",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 300ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(300);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/airports?page=3",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"airports"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List of all airports- negative testing - status code 404",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 300ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(300);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/airports?page=0",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"airports"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find an airport by ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 300ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(300);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/airports/:id",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"airports",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "POM",
+							"description": "The airport code (IATA location identifier) of the airport."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find an airport with an invalid ID - status code 404",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 300ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(300);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/airports/:id",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"airports",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "145",
+							"description": "The airport code (IATA location identifier) of the airport."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check the distance between two airports",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 300ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(300);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/airports/distance?from=MAG&to=POM",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"airports",
+						"distance"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "MAG"
+						},
+						{
+							"key": "to",
+							"value": "POM"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check error message when airport ID is not correct",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 422\", function () {\r",
+							"    pm.response.to.have.status(422);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 300ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(300);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/airports/distance?from=MAG&to=pom",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"airports",
+						"distance"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "MAG"
+						},
+						{
+							"key": "to",
+							"value": "pom"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add a favorite airport to the favorites list",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 400ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{Token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/favorites?airport_id=YAM",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"favorites"
+					],
+					"query": [
+						{
+							"key": "airport_id",
+							"value": "YAM"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add a favorite airport to the favorites list",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 400ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{Token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/favorites?airport_id=YGR&note=The nearest airport to my house.",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"favorites"
+					],
+					"query": [
+						{
+							"key": "airport_id",
+							"value": "YGR"
+						},
+						{
+							"key": "note",
+							"value": "The nearest airport to my house."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update the note of one of your favorite airports",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 400ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{Token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/favorites/:id?note=The nearest airport to my house, but also the most crowded.",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"favorites",
+						":id"
+					],
+					"query": [
+						{
+							"key": "note",
+							"value": "The nearest airport to my house, but also the most crowded."
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "10324"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete one favorite airport from the favorites list",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 204\", function () {\r",
+							"    pm.response.to.have.status(204);\r",
+							"pm.test(\"Response time is less than 400ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(400);\r",
+							"});\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{Token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/favorites/:id",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"favorites",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "10323"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find an airport by id that has been deleted from the favotites list- status code 404",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"pm.test(\"Response time is less than 400ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(400);\r",
+							"});\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{Token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/favorites/:id",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"favorites",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "10323"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
