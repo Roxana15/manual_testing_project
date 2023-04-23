@@ -82,6 +82,13 @@ The testing process will be executed based on the above [requirements](https://g
 Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases are boundary value analysis, use case testing, exploratory testing and GUI testing.
 
 **Test cases:**
+* UI test cases list:
+![image](https://user-images.githubusercontent.com/129737373/233846012-b863c4ad-9a37-4b87-8681-942391afd397.png)
+
+* API test cases list:
+![image](https://user-images.githubusercontent.com/129737373/233846244-6a9892e3-6fa0-41bc-bd7a-176b0f50c275.png)
+
+The test cases with steps can be viewed here:
 
 
 
