@@ -29,11 +29,12 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 ### 1.1.1 Entry criteria defined
 
-    functional specifications are defined
-    roles needed for the project are allocated
-    initial project risks were detected and mitigated
+    - The test environment is ready
+    - Roles and permissions are alocated
+    - User created
+    - Initial project risks were detected
 
-1.1.3 Exit criteria defined
+### 1.1.2 Exit criteria defined
 
     number of unresolved bugs is insignificant or they have low priority
     all tests have been executed
