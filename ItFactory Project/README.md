@@ -126,6 +126,24 @@ Bug report example:
 ## 1.7 Test Completion
 
 * Exit criteria was evaluated and passed.
-* The traceability matrix was generated and can be found here:
+* The traceability matrix was generated and can be found here: [Traceability_matrix](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/Traceability_matrix.xlsx)
+
+![image](https://user-images.githubusercontent.com/129737373/233859396-1300fb33-d0e4-4470-81ee-657a45e8e7a6.png)
+
+* Test execution chart was generated, the final report shows that a number 1 test has failed of a total of 15.
+* A number of 15 test cases were planned for execution and all of them were executed.
+* A number of 3 total bugs were found and all are low priority.
+
+![image](https://user-images.githubusercontent.com/129737373/233859895-452a730d-0b58-4e67-a051-3b1be58eeacc.png)
+
+# 2 SQL section
+
+As I couldn't access real PHPTRAVELS database I created my own database.
+![image](https://user-images.githubusercontent.com/129737373/233860561-a888b7ac-9751-401d-837c-2cb8005463b8.png)
+
+Check here queries done for this project.
+
+
+
 
 
