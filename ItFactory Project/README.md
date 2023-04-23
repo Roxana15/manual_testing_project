@@ -86,11 +86,23 @@ Functional test cases were created in Zephyr Squad. Based on the analysis of the
 ![image](https://user-images.githubusercontent.com/129737373/233846012-b863c4ad-9a37-4b87-8681-942391afd397.png)
 
 * API test cases list:
-![image](https://user-images.githubusercontent.com/129737373/233846244-6a9892e3-6fa0-41bc-bd7a-176b0f50c275.png)
+![image](https://user-images.githubusercontent.com/129737373/233851711-3e6a6aae-f179-47f8-846f-592f07375ef5.png)
 
 The test cases with steps can be viewed here:[Test_cases_xls](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/Test_cases_xls.xlsx)
 
 ## 1.5 Test Implementation
 
+The following elements are needed to be ready before the test execution phase begins:
+
+* Testing environment is up and running: https://phptravels.net/
+* Access to the testing environment is given: Username : user@phptravels.com | Password : demouser
+* Cycle summary was created
+* Test cases were added to the cycle summary
+* Postman collection with the dependents API methods was created
+* Authorization token was created for accessing the API
+
+## 1.6 Test Execution
+
+Test cases are executed on the created test Cycle summary:
 
 
