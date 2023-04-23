@@ -88,7 +88,9 @@ Functional test cases were created in Zephyr Squad. Based on the analysis of the
 * API test cases list:
 ![image](https://user-images.githubusercontent.com/129737373/233846244-6a9892e3-6fa0-41bc-bd7a-176b0f50c275.png)
 
-The test cases with steps can be viewed here:
+The test cases with steps can be viewed here:[Test_cases_xls](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/Test_cases_xls.xlsx)
+
+## 1.5 Test Implementation
 
 
 
