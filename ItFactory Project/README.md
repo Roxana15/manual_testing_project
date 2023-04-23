@@ -56,3 +56,14 @@ the opened bugs, unavailability of test environment.
 ### 1.1.5 Evaluating entry criteria
 
 The entry criterias defined in the Test Planning phase have been achieved and the test process can continue.
+
+## 1.2 Test Monitoring and Control
+
+Variou periodic reports were generated to reflect the current status of the testing process.
+
+![image](https://user-images.githubusercontent.com/129737373/233841661-210f29b3-6ffa-4af6-8ea5-f27091b69632.png)
+
+![image](https://user-images.githubusercontent.com/129737373/233841769-2cdfd631-43ac-41dd-87d2-b9248fefb36e.png)
+
+![image](https://user-images.githubusercontent.com/129737373/233841970-a45565be-826c-43d2-ad79-b0fec72b92cf.png)
+
