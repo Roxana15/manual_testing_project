@@ -115,10 +115,12 @@ API tests were written in Postman and contains GET, POST, PATCH and DELETE HTTP 
 
 All calls contain few tests too. The tests are checking: returned status and the response time. For more details please import collection.
 
-* Bugs have been created based on the failed tests. The complete bug reports can be found here:
+* Bugs have been created based on the failed tests. The complete bug reports can be found here:[Created bugs.pdf](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/Created%20bugs.pdf)
 
 Bug report example:
+
 ![image](https://user-images.githubusercontent.com/129737373/233858389-b285e2cb-9cdf-4df0-a03b-b4ed75d37e5d.png)
 
+* Full regression testing is needed after the bugs are fixed.
 
 
