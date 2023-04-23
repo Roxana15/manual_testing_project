@@ -141,7 +141,7 @@ Bug report example:
 As I couldn't access real PHPTRAVELS database I created my own database.
 ![image](https://user-images.githubusercontent.com/129737373/233860561-a888b7ac-9751-401d-837c-2cb8005463b8.png)
 
-Check here queries done for this project.
+Check [here](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/Phptravels%20data%20base_Roxana%20Lazar.sql) queries done for this project.
 
 
 
