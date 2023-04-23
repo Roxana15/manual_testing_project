@@ -66,6 +66,15 @@ Periodic reports were generated to reflect the current status of the testing pro
 
 ![image](https://user-images.githubusercontent.com/129737373/233842214-c3303666-423f-4406-9304-1b7114433cd8.png)
 
+## 1.3 Test Analysis
 
+The testing process will be executed based on the above [requirements](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/PHPTRAVELS%20UI%20Documentation.pdf) for the Hotels module. The following test conditions were found:
+
+* Enter data only for mandatory fields and check if the Search functionality works
+* Enter data for all available fields and check if the Search functionality works
+* Enter data for all optional fields and check if the Search functionality works
+* Check maximum allowed characters for text fields
+* Check if any type of data can be entered in text fields
+* Check if past dates are allowed
 
 
