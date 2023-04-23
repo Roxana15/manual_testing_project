@@ -59,11 +59,13 @@ The entry criterias defined in the Test Planning phase have been achieved and th
 
 ## 1.2 Test Monitoring and Control
 
-Variou periodic reports were generated to reflect the current status of the testing process.
+Periodic reports were generated to reflect the current status of the testing process.
+![image](https://user-images.githubusercontent.com/129737373/233842155-cd4951f5-9e2a-4e6e-b584-c38f087cbcbd.png)
 
-![image](https://user-images.githubusercontent.com/129737373/233841661-210f29b3-6ffa-4af6-8ea5-f27091b69632.png)
+![image](https://user-images.githubusercontent.com/129737373/233842253-090b62df-6194-4538-9591-14a0d41178b0.png)
 
-![image](https://user-images.githubusercontent.com/129737373/233841769-2cdfd631-43ac-41dd-87d2-b9248fefb36e.png)
+![image](https://user-images.githubusercontent.com/129737373/233842214-c3303666-423f-4406-9304-1b7114433cd8.png)
 
-![image](https://user-images.githubusercontent.com/129737373/233841970-a45565be-826c-43d2-ad79-b0fec72b92cf.png)
+
+
 
