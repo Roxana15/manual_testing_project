@@ -111,7 +111,9 @@ Test cases are executed on the created test Cycle summary.
 * API tests were executed in cycle [API testing.csv](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/API%20testing.csv)
 ![image](https://user-images.githubusercontent.com/129737373/233854762-8c0dd03f-1dd5-4187-aa79-6e6ed63b85e2.png)
 
-API tests were written in Postman and contains GET, POST, PATCH and DELETE HTTP methods. You can check here the [collection](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/Airport%20Gap.postman_collection.json) and [environment](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/Airport%20Gap.postman_collection.json). If you whant to run the collection you need first to registrated in https://airportgap.dev-tester.com/ and you will get also an authentication token.
+API tests were written in Postman and contains GET, POST, PATCH and DELETE HTTP methods. You can check here the [collection](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/Airport%20Gap.postman_collection.json) and [environment](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/Airport%20Env.postman_environment.json). If you whant to run the collection you need first to registrated in https://airportgap.dev-tester.com/ and you will get also an authentication token.
 
 All calls contain few tests too. The tests are checking: returned status and the response time. For more details please import collection.
+
+* Bugs have been created based on the failed tests. The complete bug reports can be found here:
 
