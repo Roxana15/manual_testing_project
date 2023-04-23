@@ -117,3 +117,7 @@ All calls contain few tests too. The tests are checking: returned status and the
 
 * Bugs have been created based on the failed tests. The complete bug reports can be found here:
 
+Bug report example:
+![image](https://user-images.githubusercontent.com/129737373/233858077-0ab16b25-0623-4041-97fa-f50481eb7c31.png)
+
+
