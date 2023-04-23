@@ -10,7 +10,7 @@ Created UI documentation: [PHPTRAVELS UI Documentation](https://github.com/Roxan
 
 API Documentation: https://airportgap.dev-tester.com/docs
 
-The final project will be split into 2 sections:[Testing section](#testing-section) and [SQL section](#sql-section).
+The final project will be split into 2 sections:[Testing section](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/README.md#1-testing-section) and [SQL section](#sql-section).
 
 Tools used: JIRA, Zephyr Squad, Postman, MySQL Workbench.
 
