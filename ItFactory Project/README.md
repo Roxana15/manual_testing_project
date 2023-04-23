@@ -29,23 +29,23 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 ### 1.1.1 Entry criteria defined
 
-    - The test environment is ready
-    - Roles and permissions are alocated
-    - User created
-    - Initial project risks were detected
+* The test environment is ready
+    * Roles and permissions are alocated
+    * User created
+    * Initial project risks were detected
 
 ### 1.1.2 Exit criteria defined
 
-    - All test cases set in scope have been executed
-    - At least 85% of test cases have passed status
-    - Maximum 3 low priority defects opened
-    - Testing deadline 30.04.2023
+    * All test cases set in scope have been executed
+    * At least 85% of test cases have passed status
+    * Maximum 3 low priority defects opened
+    * Testing deadline 30.04.2023
 
 ### 1.1.3 Test scope
 
-    Tests in scope: All the feature of Dependents module which were defined in software requirement specs need to be tested: functional testing, GUI testing and API testing
-    Tests not in scope: performance testing, integrations of the dependents module with other modules, compatibility testing with multiple browsers
+    
 
+   
 ### 1.1.4 Risks detected
 
     Project risks: lack of experience of the QA team, short deadline of Zephyr Squad trial, unavailability of test environment
