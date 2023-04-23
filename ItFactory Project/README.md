@@ -105,8 +105,8 @@ The following elements are needed to be ready before the test execution phase be
 
 Test cases are executed on the created test Cycle summary.
 
-* UI test cases were executed in cycle [Ad-hoc.csv](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/Ad-hoc.csv)
+* UI tests were executed in cycle [Ad-hoc.csv](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/Ad-hoc.csv)
 ![image](https://user-images.githubusercontent.com/129737373/233853876-86995464-17b4-4e9c-837e-6bae4a9444e1.png)
 
-
+* API tests were executed in cycle 
 
