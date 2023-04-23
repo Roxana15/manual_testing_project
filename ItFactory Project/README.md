@@ -36,23 +36,21 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 ### 1.1.2 Exit criteria defined
 
-    number of unresolved bugs is insignificant or they have low priority
-    all tests have been executed
-    all resolved bugs have been re-tested and approved by the QA team
-    deadline was reached
-    no detected major risk remained un-mitigated
-    exploratory regression testing must be performed on the My Info module, which includes the Dependents section
+    - All test cases set in scope have been executed
+    - At least 85% of test cases have passed status
+    - Maximum 3 low priority defects opened
+    - Testing deadline 30.04.2023
 
-1.1.4 Test scope
+### 1.1.3 Test scope
 
     Tests in scope: All the feature of Dependents module which were defined in software requirement specs need to be tested: functional testing, GUI testing and API testing
     Tests not in scope: performance testing, integrations of the dependents module with other modules, compatibility testing with multiple browsers
 
-1.1.5 Risks detected
+### 1.1.4 Risks detected
 
     Project risks: lack of experience of the QA team, short deadline of Zephyr Squad trial, unavailability of test environment
     Product risks: validation constraints on the fields might be too restrictive to the end-user
 
-1.1.6 Evaluating entry criteria
+### 1.1.5 Evaluating entry criteria
 
 The entry criterias defined in the Test Planning phase have been achieved and the test process can continue.
