@@ -72,9 +72,16 @@ The testing process will be executed based on the above [requirements](https://g
 
 * Enter data only for mandatory fields and check if the Search functionality works
 * Enter data for all available fields and check if the Search functionality works
-* Enter data for all optional fields and check if the Search functionality works
+* Enter data only for all optional fields and check if the Search functionality works
 * Check maximum allowed characters for text fields
 * Check if any type of data can be entered in text fields
 * Check if past dates are allowed
+
+## 1.4 Test Design
+
+Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases are boundary value analysis, use case testing, exploratory testing and GUI testing.
+
+**Test cases:**
+
 
 
