@@ -126,8 +126,11 @@ Bug report example:
 ## 1.7 Test Completion
 
 * Exit criteria was evaluated and passed.
-* The traceability matrix was generated and can be found here: [Traceability_matrix](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/Traceability_matrix.xlsx)
+* The traceability matrix was generated and can be found here: [Traceability_matrix](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/Forward%20Traceability_2_5_2023.xlsx)
+
 ![image](https://user-images.githubusercontent.com/129737373/235663188-258f6d2c-94a6-40f5-9e69-1d192c9f19ca.png)
+
+
 ![image](https://user-images.githubusercontent.com/129737373/235663242-028a0c35-60a3-4d1c-b4dd-f131403f95dc.png)
 
 
