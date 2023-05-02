@@ -127,8 +127,9 @@ Bug report example:
 
 * Exit criteria was evaluated and passed.
 * The traceability matrix was generated and can be found here: [Traceability_matrix](https://github.com/Roxana15/manual_testing_project/blob/main/ItFactory%20Project/Traceability_matrix.xlsx)
+![image](https://user-images.githubusercontent.com/129737373/235663188-258f6d2c-94a6-40f5-9e69-1d192c9f19ca.png)
+![image](https://user-images.githubusercontent.com/129737373/235663242-028a0c35-60a3-4d1c-b4dd-f131403f95dc.png)
 
-![image](https://user-images.githubusercontent.com/129737373/233859396-1300fb33-d0e4-4470-81ee-657a45e8e7a6.png)
 
 * Test execution chart was generated, the final report shows that a number 1 test has failed of a total of 15.
 * A number of 15 test cases were planned for execution and all of them were executed.
